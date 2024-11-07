@@ -11,10 +11,10 @@ const int WINDOW_WIDTH = 800;
 const int WINDOW_HEIGHT = 600;
 const int WINDOW_POSITION_X = 300;
 const int WINDOW_POSITION_Y = 100;
-const char TITLE[] = "PARTE 2";
+const char TITLE[] = "EMISOR DE PARTICULAS";
 
 const GLclampf RED = 0.6;
-const GLclampf GREEN = 0.8;
+const GLclampf GREEN = 1.0;
 const GLclampf BLUE = 0.7;
 const GLclampf ALPHA = 1.0;
 

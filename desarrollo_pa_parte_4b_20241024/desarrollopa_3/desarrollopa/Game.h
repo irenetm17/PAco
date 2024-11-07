@@ -16,8 +16,7 @@ class Game
 private:
 
 	Scene mainScene;
-	EmmiterConfiguration conf; //hay que meterle valores para crear una configuración
-	Emmiter* em;
+
 
 public:
 

@@ -5,6 +5,15 @@ void Game::Init()
 {
 	cout << "[GAME] Init..." << endl;
 
+	//Establecemos una configuración para el emisor y los muestra en escena
+	EmmiterConfiguration config(10, 1000, new Sphere());
+	Emmiter* em = new Emmiter(config);
+	this->mainScene.AddGameObject(em);
+	
+	EmmiterConfiguration configur(50, 1000, new Torus());
+	Emmiter* as = new Emmiter(configur);
+	this->mainScene.AddGameObject(as);
+
 	/*
 	Cube* cube1 = new Cube();
 	cube1->SetPosition(Vector3D(-1.0, 0.0, -3.0));
