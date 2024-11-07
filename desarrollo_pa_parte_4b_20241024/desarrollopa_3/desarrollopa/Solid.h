@@ -1,7 +1,7 @@
 #pragma once
 #include "Vector3D.h"
 #include "Color.h"
-#include "Cube.h"
+
 
 class Solid
 {
@@ -26,7 +26,7 @@ public:
 	void SetOrientationSpeed(Vector3D orientationSpeedToSet) { this->orientationSpeed = orientationSpeedToSet; }
 	void SetColor(Color colorToSet) { this->color = colorToSet; }
 	
-	//virtual Solid* Clone() { return Cube::Clone(); }
+	virtual Solid* Clone() = 0; 
 
 	virtual void Render() = 0;
 	virtual void Update();

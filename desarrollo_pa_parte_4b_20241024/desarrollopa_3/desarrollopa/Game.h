@@ -6,6 +6,8 @@
 #include "Torus.h"
 #include "Cylinder.h"
 #include "Scene.h"
+#include "EMMITERCONFIGURATION.h"
+#include "EMMITER.h"
 
 using namespace std;
 
@@ -14,10 +16,13 @@ class Game
 private:
 
 	Scene mainScene;
+	EmmiterConfiguration conf; //hay que meterle valores para crear una configuración
+	Emmiter* em;
 
 public:
 
 	Game() {}
+
 
 	void Init();
 	void Render();

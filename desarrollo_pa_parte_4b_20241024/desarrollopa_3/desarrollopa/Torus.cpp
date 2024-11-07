@@ -15,3 +15,7 @@ void Torus::Render()
 	glutSolidTorus(this->GetInternalRadius(), this->GetExternalRadius(), this->GetFaces(), this->GetRings());
 	glPopMatrix();
 }
+Solid* Torus::Clone()
+{
+	return new Torus(*this);
+}

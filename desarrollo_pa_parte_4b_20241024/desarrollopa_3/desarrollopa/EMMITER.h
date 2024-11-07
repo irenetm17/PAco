@@ -6,6 +6,7 @@
 #include "Solid.h"
 #include "Camera.h"
 #include "Cube.h"
+#include "Game.h"
 
 using namespace std;
 
@@ -22,8 +23,11 @@ private:
 	long lastUpdateTime;
 
 public:
-
 	Emmiter() : Solid()
+	{
+		
+	}
+	Emmiter(EmmiterConfiguration conf) : Solid() , configuracion(conf)
 	{
 		this->initialMilliseconds = chrono::duration_cast<chrono::milliseconds>(chrono::system_clock::now().time_since_epoch());
 		this->lastUpdateTime = 0;
@@ -33,6 +37,7 @@ public:
 	void Render();
 	void Update();
 
+	Solid* Clone();
 
 };
 

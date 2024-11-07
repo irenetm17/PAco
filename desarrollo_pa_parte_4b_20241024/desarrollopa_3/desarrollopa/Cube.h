@@ -20,7 +20,8 @@ public:
 
 	void Render();
 
-	virtual Solid* Clone();
+	Solid* Clone();
 
 };
+
 

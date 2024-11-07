@@ -25,6 +25,7 @@ public:
 	inline int GetRings() const { return this->rings; }
 	inline void SetRings(const int& ringsToSet) { this->rings = ringsToSet; }
 
+	Solid* Clone();
 	void Render();
 };
 

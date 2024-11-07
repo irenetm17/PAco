@@ -23,6 +23,9 @@ public:
 	void SetHeight(float heightToSet) { this->height = heightToSet; }
 	void SetWidth(float widthToSet) { this->width = widthToSet; }
 
+
+	Solid* Clone();
+
 	void Render();
 
 };

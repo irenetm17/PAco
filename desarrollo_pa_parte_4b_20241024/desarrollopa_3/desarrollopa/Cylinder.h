@@ -24,5 +24,7 @@ public:
     inline int GetSlacks() const { return this->slacks; }
     inline void SetSlacks(const int& slacksToSet) { this->slacks = slacksToSet; }
 
+
+    Solid* Clone();
     void Render();
 };

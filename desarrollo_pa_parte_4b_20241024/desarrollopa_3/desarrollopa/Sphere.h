@@ -23,6 +23,8 @@ public:
 	void SetSlices(int slicesToSet) { this->slices = slicesToSet; }
 	void SetSlacks(int slacksToSet) { this->slacks = slacksToSet; }
 
+
+	Solid* Clone();
 	void Render();
 
 };

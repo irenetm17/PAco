@@ -5,13 +5,13 @@ void Game::Init()
 {
 	cout << "[GAME] Init..." << endl;
 
+	/*
 	Cube* cube1 = new Cube();
 	cube1->SetPosition(Vector3D(-1.0, 0.0, -3.0));
 	cube1->SetColor(Color(0.1f, 0.9f, 0.3f, 1.0f));
 	cube1->SetOrientationSpeed(Vector3D(0.1, 0.0, 0.3));
 	this->mainScene.AddGameObject(cube1);
 
-	/*
 	Teapot* teapot1 = new Teapot();
 	teapot1->SetPosition(Vector3D(1.0, 0.0,-3.0));
 	teapot1->SetColor(Color(0.2f, 0.4f, 0.6f, 1.0f));
@@ -35,7 +35,6 @@ void Game::Init()
 	cylinder1->SetColor(Color(0.6f, 0.1f, 0.7f, 0.8f));
 	this->mainScene.AddGameObject(cylinder1);
 	*/
-
 
 
 }

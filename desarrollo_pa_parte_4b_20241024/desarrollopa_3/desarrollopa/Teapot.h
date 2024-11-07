@@ -13,7 +13,8 @@ public:
 
 	inline float GetSize() { return this->size; }
 	void SetSize(float sizeToSet) { this->size = sizeToSet; }
-	
+
+	Solid* Clone();
 	void Render();
 };
 
