@@ -1,0 +1,13 @@
+Introduccion:
+
+Esta memoria detallara el desarrollo de la practica 1 de la asignatura de Programación Avanzada. 
+El objetivo de la práctica es la creación de un sistema que genere partículas, similar a los utilizados en videojuegos, en el programa Visual Studio.
+Se detallara el proceso paso a paso para la creación de dicho sistema de partículas, mostrando ejemplos de código, y explicación de 
+la función de cada parte del código, incluyendo también imágenes del resultado final.
+
+
+Conclusiones:
+
+Esta práctica ha resultado muy interesante y ha demostrado las capacidades y posibilidades que posee Visual Studio.
+Ha habido partes del desarrollo de la práctica, particularmente al intentar que se generasen partículas utilizando la clase Code, pero gracias al profesor
+hemos sido capaces de resolver estas dudas 
